@@ -39,6 +39,9 @@ body{
 .conteudo{
     width: 100%;
     height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
     display: flex;
     align-items: center;
 }
@@ -118,4 +121,39 @@ body{
 
 .personagem-capa{
    width: 100%;
+}
+
+.person{
+    width: 80%;
+}
+
+.person-nome{
+    color: white;
+    font-size: 64px;
+    line-height: 30px;
+}
+
+.person-funcao{
+    color: white;
+    font-size: 32px;
+    line-height: 30px;
+}
+
+.person-funcao-resp{
+    color: white;
+    font-size: 28px;
+    line-height: 30px;
+}
+
+.person-bio{
+    color: white;
+    font-size: 28px;
+    line-height: 30px;
+}
+
+.person-bio-resp{
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    width: 50ch;
 }
