@@ -124,12 +124,12 @@ body{
 }
 
 .person{
-    width: 350px;
+    width: 90%;
 }
 
 .person-nome{
     color: white;
-    font-size: 64px;
+    font-size: 60px;
     line-height: 30px;
 }
 
@@ -156,4 +156,56 @@ body{
     font-size: 18px;
     line-height: 30px;
     width: 50ch;
+}
+
+@media(max-width:900px) {
+    .personagem-capa,
+    .person{
+        display: none;
+    }
+
+    .conteudo{
+        justify-content: center;
+    }
+
+    .sub-conteudo
+    {
+        text-align: center;
+    }
+
+    .galeria{
+        margin: 0 auto;
+    }
+
+    .person-nome{
+        color: white;
+        font-size: 40px;
+        line-height: 30px;
+    }
+    
+    .person-funcao{
+        color: white;
+        font-size: 22px;
+        line-height: 30px;
+    }
+    
+    .person-funcao-resp{
+        color: white;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    .person-bio{
+        color: white;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    .person-bio-resp{
+        color: white;
+        font-size: 16px;
+        line-height: 30px;
+        max-width: 35ch;
+    }
+
 }
